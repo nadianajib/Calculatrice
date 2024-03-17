@@ -55,18 +55,17 @@ button:hover {
 
 @media screen and (max-width: 600px) {
     #calculatrice {
-        width: 80%; 
-        max-width: none; 
-        
+        width: 100%; /* Utilise 100% de la largeur de l'écran */
+        max-width: none; /* Supprime la largeur maximale */
     }
 
     input[type="text"] {
         font-size: 1.4em;
-        padding: 8px; 
+        padding: 8px;
     }
     
     button {
         font-size: 1em;
-        padding: 8px; 
+        padding: 8px;
     }
 }
