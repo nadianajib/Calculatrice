@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    display:flex;
+    height:100vh;
+    justify-content: center;
+    align-items: center;
+}
+#calculatrice{
+    background-color: #1c1c1c;
+    width: 400px;
+    height: 600px;
+}
+.row{
+    display:flex;
+    height: 100px;
+}
+input[type="text"]{
+    flex:1;
+    border:none;
+    outline:none;
+    background: #1f1f1f;
+    color: #adadad;
+    font-size: 1.7em;
+    padding: 0 20px;
+
+}
+button{
+    flex:1;
+    border: none;
+    outline: none;
+    background-color: #1c1c1c;
+    color:#adadad;
+    font-size:1.2em ;
+
+}
+button:hover{
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+.special{
+    flex: 2;
+}
+#resultat {
+    margin-bottom:30 px; /* Ajoute un espacement en bas */
+    text-align: left; /* Centre le texte horizontalement */
+    color: aqua;
+    
+}
